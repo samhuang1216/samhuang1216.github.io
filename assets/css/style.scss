@@ -1,10 +1,10 @@
 ---
 ---
 
-@import "";
+@import "{{ site.theme }}";
 
 .site-tag a {
     display: inline-block;
     margin-right: 12px;
-    font-size: 8em;
+    font-size: 10em;
 }
