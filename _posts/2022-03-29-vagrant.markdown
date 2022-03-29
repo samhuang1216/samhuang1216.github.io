@@ -6,7 +6,7 @@ categories: windows
 tags: [vagrant, devEnv]
 ---
 
-# vagrant
+## vagrant
 
 [https://app.vagrantup.com/boxes/search](https://app.vagrantup.com/boxes/search)
 

@@ -9,8 +9,12 @@ tags: [git, dropbox]
 ## local git repo
 
 ### create folder
+
   `mkdir xxxx.git`
 
 ### into folder
+
+```shell
   cd xxxx.git   
   git init --bare 
+```
