@@ -1,24 +1,28 @@
 ---
 layout: post
-title:  "scoop 怎麼用"
+title:  "用scoop安裝jekyll"
 date:   2022-03-29 14:37:21 +0800
 categories: windows
-tags: [scoop, devEnv]
+tags: [scoop, githubPages, jekyll]
 ---
+ 
+ 這是在windows底下，linux底下才沒那麼麻煩咧.....
 
-### link
+ 在PowerShell底下
 
-[https://github.com/ScoopInstaller/Scoop/wiki/Quick-Start](https://github.com/ScoopInstaller/Scoop/wiki/Quick-Start)
+```batch
+#Ruby：
+scoop install ruby
 
-```shell
-scoop search <para> 
-scoop install <para> 
-scoop bucket add <para> 
-scoop list  
-```
+#MSYS2：
+scoop install msys2
+msys2
 
-### change java version
+#restart powershell
+#ridk
+ridk install 3
 
-```shell
-scoop reset adopt11-openj9
+#Jekyll：
+gem install bundler jekyll
+gem update
 ```

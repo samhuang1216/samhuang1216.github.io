@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "vagrant 很簡單很簡單記一下"
+date:   2022-03-29 17:37:21 +0800
+categories: windows
+tags: [vagrant, devEnv]
+---
+
+# vagrant
+
+[https://app.vagrantup.com/boxes/search](https://app.vagrantup.com/boxes/search)
+
+## 啟動
+
+```shell
+vagrant up
+```
+
+## ssh
+
+```shell
+vagrant ssh
+```
+
+## 打包、導入、清單
+
+```shell
+vagrant package
+
+vagrant box add <上面的檔案>
+
+vagrant box list  -查看現有的box清單
+```
