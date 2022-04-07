@@ -25,4 +25,8 @@ ridk install 3
 #Jekyll：
 gem install bundler jekyll
 gem update
+
+#start local jekyll
+bundle exec jekyll serve
+
 ```
