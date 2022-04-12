@@ -1,10 +1,7 @@
 ---
+# Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import "{{ site.theme }}";
-
-.site-tag a {
-    display: inline-block;
-    margin-right: 12px;
-    font-size: 10em;
-}
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
